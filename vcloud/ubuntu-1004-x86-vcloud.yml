@@ -1,10 +1,10 @@
 HOSTS:
-  'ubuntu-1404-vcloud':
+  'ubuntu-1004-vcloud':
     roles:
       - master
-    platform: ubuntu-1404-x86
+    platform: ubuntu-1004-x86
     hypervisor: vcloud
-    template: ubuntu-1404-i386
+    template: ubuntu-1004-i386
 CONFIG:
   type: foss
   ssh:

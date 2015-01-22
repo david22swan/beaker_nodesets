@@ -1,5 +1,5 @@
 HOSTS:
-  'centos-6-vcloud':
+  'ubuntu-1404-vcloud':
     roles:
       - master
     platform: ubuntu-1404-x86_64

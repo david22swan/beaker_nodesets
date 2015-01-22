@@ -1,10 +1,10 @@
 HOSTS:
-  'ubuntu-1404-vcloud':
+  'debian-6-vcloud':
     roles:
       - master
-    platform: ubuntu-1404-x86
+    platform: debian-6-x86_64
     hypervisor: vcloud
-    template: ubuntu-1404-i386
+    template: debian-6-x86_64
 CONFIG:
   type: foss
   ssh:

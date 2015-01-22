@@ -1,5 +1,5 @@
 HOSTS:
-  'centos-6-vcloud':
+  'debian-7-vcloud':
     roles:
       - master
     platform: debian-7-x86_64
